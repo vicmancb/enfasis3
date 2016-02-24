@@ -1,11 +1,18 @@
 <html>
 <head>
-	<title>App de prueba</title>
+	<title>Piedra Papel o Tijera</title>
 </head>
 <body>
-	esta es la primer aplicación de prueba
-	y  me está quedando muy bonita
-	un commit mas
-	aswer
+	<div>
+		<button onclick="takeAction('Piedra')">Piedra</button>
+		<button onclick="takeAction('Papel')">Papel</button>
+		<button onclick="takeAction('Tijera')">Tijera</button>
+	</div>
+	<div>
+		<div>Ganadas: <span id="win">0</span></div>
+		<div>Perdidas: <span id="lost">0</span></div>
+		<div>Empatadas: <span id="tie">0</span></div>
+	</div>
+	<script type="application/javascript" src="script.js"></script>
 </body>
 </html>
